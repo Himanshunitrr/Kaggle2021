@@ -11,7 +11,7 @@ def app():
   header_container = st.container()
   left_column, right_column = st.columns(2)
   with header_container:
-    country = header_container.selectbox("Select Country", options=['India', 'Algeria', 'Argentina', 'Australia', 'Austria', 'Bangladesh', 'Belarus',
+    country = header_container.selectbox("SELECT COUNTRY", options=['India', 'Algeria', 'Argentina', 'Australia', 'Austria', 'Bangladesh', 'Belarus',
     'Belgium', 'Brazil', 'Canada', 'Chile', 'China', 'Colombia', 'Czech Republic',
     'Denmark', 'Ecuador', 'Egypt', 'Ethiopia', 'France', 'Germany', 'Ghana',
     'Greece', 'Hong Kong (S.A.R.)', 'I do not wish to disclose my location',
