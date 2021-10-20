@@ -41,6 +41,8 @@ class MultiApp:
     })
 
   def run(self):
+    st.sidebar.title('2021 Kaggle Machine Learning & Data Science Survey')
+    st.sidebar.markdown("This is visualization of data collected by Kaggle which can be found at [Kaggle Dataset](https://www.kaggle.com/c/kaggle-survey-2021/data). Get interesting insights about ML & DS and you can even compare any country with the world. These visualizations are copied from the [notebook](https://www.kaggle.com/siddhantsadangi/kaggle-2021-your-country-vs-the-world/notebook) of [Siddhant Sadangi](https://www.kaggle.com/siddhantsadangi). Currently the website is not responsive. Website created by [Himanshu Maurya](https://www.kaggle.com/himanshunitrr).")
     app = st.sidebar.selectbox(
         'Explore',
         self.apps,
